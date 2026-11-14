@@ -2,6 +2,8 @@
 
 @param java.util.List<Prato> pratos
 
+<link rel="stylesheet" href="/css/style.css">
+
 <h2>Pratos realizados</h2>
 
 @if(pratos.isEmpty())

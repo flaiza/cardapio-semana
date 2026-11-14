@@ -1,4 +1,4 @@
-@param String titulo
+<link rel="stylesheet" href="/css/style.css">
 
 <h2>Adicionar novo prato</h2>
 

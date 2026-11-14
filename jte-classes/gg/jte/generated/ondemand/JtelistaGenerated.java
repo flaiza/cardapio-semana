@@ -4,9 +4,9 @@ import com.example.cardapiosemana.Prato;
 @javax.annotation.processing.Generated("gg.jte.TemplateEngine")
 public final class JtelistaGenerated {
 	public static final String JTE_NAME = "lista.jte";
-	public static final int[] JTE_LINE_INFO = {0,0,0,0,0,0,0,0,5,5,7,7,8,8,10,10,10,11,11,11,12,12,12,13,13,13,14,14,14,15,15,15,18,18,18,18,18,18,18,18,18,22,22,23,23,0,0,1,0,0,0};
+	public static final int[] JTE_LINE_INFO = {0,0,0,0,0,0,0,0,7,7,9,9,10,10,12,12,12,13,13,13,14,14,14,15,15,15,16,16,16,17,17,17,20,20,20,20,20,20,20,20,20,24,24,25,25,0,0,1,0,0,0};
 	public static void render(gg.jte.html.HtmlTemplateOutput jteOutput, gg.jte.html.HtmlInterceptor jteHtmlInterceptor, java.util.List<Prato> pratos) {
-		jteOutput.writeContent("\r\n<h2>Pratos planejados</h2>\r\n\r\n");
+		jteOutput.writeContent("\r\n<link rel=\"stylesheet\" href=\"/css/style.css\">\r\n\r\n<h2>Pratos planejados</h2>\r\n\r\n");
 		if (pratos.isEmpty()) {
 			jteOutput.writeContent("\r\n    <p>Nenhum prato planejado ainda.</p>\r\n");
 		} else {

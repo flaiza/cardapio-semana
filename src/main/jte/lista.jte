@@ -1,6 +1,8 @@
 @import com.example.cardapiosemana.Prato
 @param java.util.List<Prato> pratos
 
+<link rel="stylesheet" href="/css/style.css">
+
 <h2>Pratos planejados</h2>
 
 @if(pratos.isEmpty())

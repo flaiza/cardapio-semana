@@ -2,10 +2,21 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Cardapio da Semana</title>
+    <title>Cardápio da Semana</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Cardapio da Semana</h1>
-    <p>Organize suas refeicoes de forma simples e pratica!</p>
+<header>
+    <h1>Cardápio da Semana</h1>
+</header>
+
+<main>
+    <h2>Organize suas refeições de forma simples e prática!</h2>
+    <section>
+        <h3>Bem-vindo ao seu cardápio!</h3>
+        <p>Planeje suas refeições e acompanhe os pratos realizados.</p>
+    </section>
+</main>
 </body>
 </html>
+
